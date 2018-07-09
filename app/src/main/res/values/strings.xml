@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">kotlinstarter</string>
+    <string name="score">Your Score: </string>
+    <string name="hit_me">Tap Me</string>
+    <string name="time">Time Left:</string>
+</resources>
