@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">kotlinstarter</string>
-    <string name="score">Your Score: </string>
+    <string name="app_name">Timefighter</string>
+    <string name="score">Your Score: %s</string>
     <string name="hit_me">Tap Me</string>
-    <string name="time">Time Left:</string>
+    <string name="time">Time Left: %s</string>
+    <string name="game_over_message">Times up! Your score was: %s</string>
 </resources>
