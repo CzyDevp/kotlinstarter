@@ -2,6 +2,7 @@ package com.example.navjot.kotlinstarter
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.support.v7.app.AppCompatActivity
+import android.view.animation.AnimationUtils
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_game.*
 class GameActivity : AppCompatActivity() {
@@ -14,7 +15,11 @@ class GameActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)
-        hit_me.setOnClickListener{_->incrementScore()}
+        hit_me.setOnClickListener{v->
+            val animation = AnimationUtils.loadAnimation(this,R.anim.bounce)
+            v.startAnimation(animation)
+            incrementScore()
+        }
         resetGame()
     }
 
