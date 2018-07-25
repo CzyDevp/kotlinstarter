@@ -1,8 +1,10 @@
 package com.example.navjot.kotlinstarter
+import android.content.Intent
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_game.*
@@ -109,5 +111,10 @@ class GameActivity : AppCompatActivity() {
         score++
         var newScore = getString(R.string.score,Integer.toString(score))
         game_score.text = newScore
+    }
+
+    fun startCounter(view: View){
+        val counterIntent = Intent(this,Counter::class.java)
+        startActivity(counterIntent)
     }
 }
