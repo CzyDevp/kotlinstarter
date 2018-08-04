@@ -17,8 +17,8 @@ class Random:AppCompatActivity() {
         val count = intent.getIntExtra(TOTAL_COUNT,0)
         val randm =  Random()
         var randomInt = 0
-        if(count>0) randomInt = randm.nextInt(count+1)
-        random.text= Integer.toString(randomInt)
+        if(count>0) randomInt = randm.nextInt(count+1);
+        random.text= Integer.toString(randomInt);
         random_heading.text = getString(R.string.heading,count)
     }
 }

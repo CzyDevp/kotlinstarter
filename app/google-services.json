@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "427145070818",
+    "firebase_url": "https://cloudkotlin.firebaseio.com",
+    "project_id": "cloudkotlin",
+    "storage_bucket": "cloudkotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427145070818:android:d4d7b44ac289e0d5",
+        "android_client_info": {
+          "package_name": "com.example.navjot.kotlinstarter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427145070818-q0l3qbl4h7ar9fio3qscjvmb8vmdfl5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCibmZ62pAIFeL3bzFSPqSnPvKhJ_wPYFM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
